@@ -1,3 +1,4 @@
+rem This file needs to be ranas administrator
 @echo off
 mode con: cols=90 lines=15
 cd C:\Windows\System32\inetsrv
