@@ -1,5 +1,6 @@
 @echo off
 mode con: cols=53 lines=4
+echo "This file may need to be ran as Administrator"
 set /P IPADDRESS="IP or Host Name: "
 Title ping %IPADDRESS%
 set INTERVAL=1
